@@ -21,6 +21,8 @@ leetcode上面练题不是为了把题解出来，是为了学习数据结构，
 
 [205. 同构字符串](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/205.md)
 
+[219. 存在重复元素 II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/219.md)
+
 [350. 两个数组的交集II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/350.md)
 
 
