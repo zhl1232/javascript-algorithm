@@ -11,13 +11,18 @@
 
 leetcode上面练题不是为了把题解出来，是为了学习数据结构，只是一味的完成题目对自己没有任何帮助。
 
-所以每道题尽量多的想解题思路，每道题的执行用时必须达到90%以上，时间复杂度也要按出题意图完成。
+所以每道题尽量多的想解题思路，最好把标签相关的每一种解法都写一下。
+
+每道题的执行用时必须达到90%以上，时间复杂度也要按出题意图完成。
 
 
 
 [202. 快乐数](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/202.md)
 
 [205. 同构字符串](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/205.md)
+
+[350. 两个数组的交集II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/350.md)
+
 
 [387. 字符串中的第一个唯一字符](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/387.md)
 
