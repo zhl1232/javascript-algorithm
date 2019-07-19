@@ -21,6 +21,7 @@ leetcode上面练题不是为了把题解出来，是为了学习数据结构，
 
 题目 | 难度 | 标签
 -------------|---|---
+[36. 有效的数独](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/36.md) | 中等 | **哈希表**
 [49. 字母异位词分组](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/49.md) | 中等 | **哈希表** **字符串**
 [202. 快乐数](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/202.md)| 简单 | **哈希表** **数学**
 [205. 同构字符串](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/205.md)| 简单 | **哈希表**
