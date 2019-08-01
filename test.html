@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var flipAndInvertImage = function(A) {
+        let n = A.length
+        for (let i = 0; i < n; i++) {
+          let left = 0
+          let right = n - 1
+
+          while (left < right) {
+            if (A[i][left] === A[i][right]) {
+              A[i][left] = A[i][left] ^ 1
+              A[i][right] = A[i][right] ^ 1
+            }
+            left++
+            right--
+          }
+          if (n % 2) {
+            A[i][~~(n / 2)] = A[i][~~(n / 2)] ^ 1
+          }
+        }
+        return A
+      }
+    </script>
+    用 js 写 leetcode
+    的解题思路，https://github.com/zhl1232/javascript-algorithm，可以关注下，一起学习。
+  </body>
+</html>

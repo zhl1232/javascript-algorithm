@@ -29,4 +29,4 @@ leetcode上面练题不是为了把题解出来，是为了学习数据结构，
 [350. 两个数组的交集II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/350.md)| 简单 | **排序** **哈希表** **双指针** **二分查找**
 [387. 字符串中的第一个唯一字符](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/387.md)| 简单 | **哈希表** **字符串** 
 [599. 两个列表的最小索引总和](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/599.md)| 简单 | **哈希表**
-
+[832. 翻转图像](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/599.md)| 简单 | **数组**
