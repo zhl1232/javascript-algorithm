@@ -1,3 +1,12 @@
+<!--
+ * @File: 
+ * @Author: 张宏亮 - zhl@xiaoniren.cn
+ * @Date: 2019-07-18 10:31:22
+ * @LastEditors: 张宏亮<zhl@xiaoniren.cn>
+ * @LastEditTime: 2019-08-09 22:57:13
+ * @Description: file content
+ * @Versions: 1.0.0
+ -->
 # javascript-algorithm
 用js写leetcode
 
@@ -28,5 +37,7 @@ leetcode上面练题不是为了把题解出来，是为了学习数据结构，
 [219. 存在重复元素 II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/219.md)| 简单 | **哈希表** **数组**
 [350. 两个数组的交集II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/350.md)| 简单 | **排序** **哈希表** **双指针** **二分查找**
 [387. 字符串中的第一个唯一字符](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/387.md)| 简单 | **哈希表** **字符串** 
+[500. 键盘行](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/500.md)| 简单 | **哈希表**
 [599. 两个列表的最小索引总和](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/599.md)| 简单 | **哈希表**
+[771. 宝石与石头](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/771.md)| 简单 | **哈希表**
 [832. 翻转图像](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/599.md)| 简单 | **数组**

@@ -1,3 +1,12 @@
+<!--
+ * @File: 
+ * @Author: 张宏亮 - zhl@xiaoniren.cn
+ * @Date: 2019-08-02 00:14:04
+ * @LastEditors: 张宏亮<zhl@xiaoniren.cn>
+ * @LastEditTime: 2019-08-09 22:48:14
+ * @Description: file content
+ * @Versions: 1.0.0
+ -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,26 +17,39 @@
   </head>
   <body>
     <script>
-      var flipAndInvertImage = function(A) {
-        let n = A.length
-        for (let i = 0; i < n; i++) {
-          let left = 0
-          let right = n - 1
-
-          while (left < right) {
-            if (A[i][left] === A[i][right]) {
-              A[i][left] = A[i][left] ^ 1
-              A[i][right] = A[i][right] ^ 1
+      /**
+ * @param {string[]} words
+ * @return {string[]}
+ */
+var findWords = function(words) {
+    let map = new Map([
+      ['q',1],['w',1],['e',1],['r',1],['t',1],['y',1],['u',1],['i',1],['o',1],['p',1],
+      ['a',2],['s',2],['d',2],['f',2],['g',2],['h',2],['j',2],['k',2],['l',2],
+      ['z',3],['x',3],['c',3],['v',3],['b',3],['n',3],['m',3]
+    ])
+    let res = []
+    // map.set('q',1).set('w',1).set('e',1).set('r',1).set('t',1).set('y',1).set('u',1).set('i',1).set('o',1).set('p',1).set('a',2).set('s',2).set('d',2).set('f',2).set('g',2).set('h',2).set('j',2).set('k',2).set('l',2).set('z',3).set('x',3).set('c',3).set('v',3).set('b',3).set('n',3).set('m',3)
+    for(let i = 0; i < words.length; i++) {
+        let word =  words[i]
+        let temp = map.get(word[0].toLowerCase())
+        for(let j = 0; j < word.length; j++) {
+            
+            if(temp == map.get(word[j].toLowerCase())) {
+                if (j == word.length - 1) {
+                  res.push(word)
+                }
+            } else {
+                break
             }
-            left++
-            right--
-          }
-          if (n % 2) {
-            A[i][~~(n / 2)] = A[i][~~(n / 2)] ^ 1
-          }
         }
-        return A
-      }
+    }
+    return res
+    
+};  
+console.log(findWords(
+["Peace"]));
+
+      
     </script>
     用 js 写 leetcode
     的解题思路，https://github.com/zhl1232/javascript-algorithm，可以关注下，一起学习。
