@@ -3,13 +3,12 @@
  * @Author: 张宏亮 - zhl@xiaoniren.cn
  * @Date: 2019-08-12 17:20:40
  * @LastEditors: 张宏亮<zhl@xiaoniren.cn>
- * @LastEditTime: 2019-08-12 20:14:50
+ * @LastEditTime: 2019-08-12 20:24:44
  * @Description: file content
  * @Versions: 1.0.0
  -->
-# Trie树的JS实现
 
-### Trie的简介
+### Trie树的简介
 
 > 又称单词查找树，Trie树，是一种树形结构，是一种哈希树的变种。典型应用是用于统计，排序和保存大量的字符串（但不仅限于字符串），所以经常被搜索引擎系统用于文本词频统计。
 
