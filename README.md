@@ -3,7 +3,7 @@
  * @Author: 张宏亮 - zhl@xiaoniren.cn
  * @Date: 2019-07-18 10:31:22
  * @LastEditors: 张宏亮<zhl@xiaoniren.cn>
- * @LastEditTime: 2019-08-12 20:22:32
+ * @LastEditTime: 2019-08-12 23:01:13
  * @Description: file content
  * @Versions: 1.0.0
  -->
@@ -62,3 +62,4 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 [811. 子域名访问计数](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/811.md)| 简单 | **哈希表**
 [832. 翻转图像](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/599.md)| 简单 | **数组**
 [961. 重复 N 次的元素](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/961.md)| 简单 | **哈希表**
+[1047. 删除字符串中的所有相邻重复项](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/961.md)| 简单 | **栈** **字符串**
