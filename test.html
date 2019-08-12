@@ -3,7 +3,7 @@
  * @Author: 张宏亮 - zhl@xiaoniren.cn
  * @Date: 2019-08-02 00:14:04
  * @LastEditors: 张宏亮<zhl@xiaoniren.cn>
- * @LastEditTime: 2019-08-10 00:23:11
+ * @LastEditTime: 2019-08-12 17:12:23
  * @Description: file content
  * @Versions: 1.0.0
  -->
@@ -17,41 +17,89 @@
   </head>
   <body>
     <script>
-var subdomainVisits = function(cpdomains) {
-    let map = new Map()
-    
-    for(let i = 0; i < cpdomains.length; i++) {
-        let [num, url] = cpdomains[i].split(' ')
-        
-        while(url.includes('.')){
-            if(map.has(url)){
-                map.set(url, (map.get(url) + num))
-            } else {
-                map.set(url, num)
-            }            
-            url = url.slice(url.indexOf('.') + 1)
-        }
-        
-        if(map.has(url)){
-            map.set(url, (map.get(url) + num))
-        } else {
-            map.set(url, num)
-        }
+      /**
+       * @param {string[]} dict
+       * @param {string} sentence
+       * @return {string}
+       */
+
+/**
+  * Trie
+  */
+class Trie {
+  constructor() {
+    this.root = new TrieNode(null)
+  }
+  insertData(stringData) {
+    this.insert(stringData, this.root)
+  }
+  insert(stringData, node) {
+    if (stringData == '') {
+      node.done = true
+      return
     }
+    // 题目里都是单词，只有26个字母。用字母的 ASCII 码减 a 的 ASCII 码正好对应0-25
+    // const index = stringData[0].charCodeAt(0) - 'a'.charCodeAt(0)
+    let haveData = node.children.get(stringData[0])
 
-    map.forEach(function(value, key) {
-  console.log(key, value);
-});
-    // console.log([...map.entries()]);
-    
-};
+    if (haveData) {
+      this.insert(stringData.substring(1), haveData)
+    } else {
+      let newNode = new TrieNode(stringData[0])
+      // node.children[index] = newNode
+      node.children.set(stringData[0], newNode)
+      this.insert(stringData.substring(1), newNode)
+    }
+  }
+  search(stringData) {
+    let node = this.root
+    let res = ''
+    for (let i = 0; i < stringData.length; i++) {
+      // cattle
+      const element = stringData[i]
+      // const index = element.charCodeAt(0) - 'a'.charCodeAt(0)
+      const target = node.children.get(element)
 
-console.log(subdomainVisits(["9001 discuss.leetcode.com"]));
+      if (node.done) {
+        break
+      } else if (target) {
+        res += target.key
+        node = target
+      } else {
+        res = ''
+        break
+      }
+    }
+    return res
+  }
+}
+/**
+  * 节点
+  * @param {*} key
+  */
+class TrieNode {
+  constructor(key) {
+    this.key = key // 节点字符
+    this.children = new Map() // 子节点集合
+  }
+}
 
-// console.log('google.mail.com'.includes('.'));
+      var replaceWords = function(dict, sentence) {
+        const tree = new Trie()
+        for (let i = 0; i < dict.length; i++) {
+          tree.insertData(dict[i])
+        }
+        console.log(tree)
 
-      
+        return sentence
+          .split(' ')
+          .map(w => tree.search(w) || w)
+          .join(' ')
+      }
+
+      console.log(replaceWords(['cat', 'bat', 'rat'], 'the cattle was rattled by the battery'))
     </script>
-    用 js 写 leetcode 的解题思路，https://github.com/zhl1232/javascript-algorithm，可以关注下，一起学习。
+    用 js 写 leetcode
+    的解题思路，https://github.com/zhl1232/javascript-algorithm，可以关注下，一起学习。
   </body>
 </html>

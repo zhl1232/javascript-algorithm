@@ -1,0 +1,77 @@
+<!--
+ * @File: 
+ * @Author: 张宏亮 - zhl@xiaoniren.cn
+ * @Date: 2019-08-12 00:58:45
+ * @LastEditors: 张宏亮<zhl@xiaoniren.cn>
+ * @LastEditTime: 2019-08-12 17:00:53
+ * @Description: file content
+ * @Versions: 1.0.0
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /**
+       * Trie
+       */
+      class Trie {
+        constructor() {
+          this.root = new TrieNode(null)
+        }
+        insertData(stringData) {
+          this.insert(stringData, this.root)
+        }
+        insert(stringData, node) {
+          if (stringData == '') {
+            return
+          }
+          let children = node.children
+          let haveData = null
+          for (let i in children) {
+            if (children[i].key == stringData[0]) {
+              haveData = children[i]
+            }
+          }
+          if (haveData) {
+            this.insert(stringData.substring(1), haveData) //说明找到了对应的节点
+          } else {
+            //那如果没有找到则插入
+            if (children.length == 0) {
+              //当前节点没有子节点
+              let node = new TrieNode(stringData[0])
+              children.push(node)
+              this.insert(stringData.substring(1), node) //将该字符节点插入节点的children中
+            } else {
+              //当前节点存在子节点，需要查找一个合适的位置去插入新节点
+              let validPosition = 0
+              for (let j in children) {
+                if (children[j].key < stringData[0]) {
+                  validPosition++
+                }
+              }
+              let node = new TrieNode(stringData[0])
+              children.splice(validPosition, 0, node)
+              this.insert(stringData.substring(1), node) //将该字符节点插入节点的children中
+            }
+          }
+        }
+      }
+      /**
+       * 节点
+       * @param {*} key
+       */
+      class TrieNode {
+        constructor(key) {
+          this.key = key // 节点字符
+          this.children = new Map() // 子节点集合
+        }
+      }
+    </script>
+  </body>
+</html>
