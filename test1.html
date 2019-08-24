@@ -3,7 +3,7 @@
  * @Author: 张宏亮 - zhl@xiaoniren.cn
  * @Date: 2019-08-12 00:58:45
  * @LastEditors: 张宏亮<zhl@xiaoniren.cn>
- * @LastEditTime: 2019-08-12 22:56:35
+ * @LastEditTime: 2019-08-24 11:32:03
  * @Description: file content
  * @Versions: 1.0.0
  -->
@@ -18,34 +18,39 @@
   <body>
     <script>
       /**
-       * @param {string} S
-       * @return {string}
-       */
+ * @param {number[]} nums
+ * @return {number}
+ */
+// var removeDuplicates = function(nums) {
+//   let pointer = 0
+//   let i = 1
+//   let len = nums.length
+//   // for(let i = 1; i < len; i++) {
+//   //     if(nums[i] == nums[pointer] && nums[i + 1] == nums[pointer]) {
+//   //       nums.splice(i, 1)
+//   //       pointer += 1
+//   //     } else if(nums[i] !== nums[pointer]){
+//   //       pointer = i
+//   //     }
+//   // }
 
-      var removeDuplicates = function(S) {
-        let duplicates = []
-        for (let i = 0; i < 26; i++) {
-          let temp = String.fromCharCode(i + 97) + String.fromCharCode(i + 97)
-          duplicates.push(temp)
-        }
-        console.log(S.length, S)
-        let length1 = S.length
-        for (let i = 0; i < duplicates.length; i++) {
-          if (S.includes(duplicates[i])) {
-            console.log(2)
+//   while (i < nums.length) {
+//     if(nums[i] == nums[pointer] && nums[i + 1] == nums[pointer]) {
+//         nums.splice(i, 1)
+//         // pointer += 1
+//       } else if(nums[i] !== nums[pointer]){
+//         pointer = i
+//         i++
+//       } else {
+//         i++
+//       }
+//   }
+// return nums
+// };
+// console.log(removeDuplicates([0,0,1,1,1,1,2,3,3]));
+var a,b = 2
+console.log(a,b);
 
-            S = S.replace(duplicates[i], '')
-            break
-          }
-        }
-        console.log(S.length, S, 3)
-
-        if (S.length != length1) {
-          return removeDuplicates(S)
-        }
-        return S
-      }
-      console.log(removeDuplicates('abbaca'))
  
     </script>
   </body>
