@@ -42,7 +42,10 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 
 [trie树](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Trie.md)
 
-
+<details>
+<summary>test</summary>
+标签测试
+</details>
 
 
 # 题解
