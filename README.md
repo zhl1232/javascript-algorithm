@@ -2,8 +2,8 @@
  * @File: 
  * @Author: 张宏亮 - zhl@xiaoniren.cn
  * @Date: 2019-07-18 10:31:22
- * @LastEditors: 张宏亮<zhl@xiaoniren.cn>
- * @LastEditTime: 2019-08-24 11:48:51
+ * @LastEditors: 张宏亮<hongliang@yunshan.net>
+ * @LastEditTime: 2019-09-22 16:04:39
  * @Description: file content
  * @Versions: 1.0.0
  -->
@@ -51,11 +51,14 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 
 题目 | 难度 | 标签
 -------------|---|---
+[20. 有效的括号](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/20.md) | 简单 | **栈** **字符串**
 [26. 删除排序数组中的重复项](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/26.md) | 简单 | **双指针** **数组**
 [27. 移除元素](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/27.md) | 简单 | **双指针** **数组**
 [36. 有效的数独](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/36.md) | 中等 | **哈希表**
 [49. 字母异位词分组](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/49.md) | 中等 | **哈希表** **字符串**
+[75. 颜色分类](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/75.md) | 中等 | **排序** **数组** **双指针**
 [80. 删除排序数组中的重复项 II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/80.md) | 中等 | **双指针** **数组**
+[155. 最小栈](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/155.md) | 简单 | **栈** **设计**
 [202. 快乐数](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/202.md)| 简单 | **哈希表** **数学**
 [205. 同构字符串](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/205.md)| 简单 | **哈希表**
 [219. 存在重复元素 II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/219.md)| 简单 | **哈希表** **数组**

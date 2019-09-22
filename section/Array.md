@@ -3,7 +3,7 @@
  * @Author: 张宏亮 - zhl@xiaoniren.cn
  * @Date: 2019-08-18 15:24:23
  * @LastEditors: 张宏亮<zhl@xiaoniren.cn>
- * @LastEditTime: 2019-08-18 17:25:33
+ * @LastEditTime: 2019-08-24 13:50:11
  * @Description: file content
  * @Versions: 1.0.0
  -->
@@ -18,6 +18,7 @@
 数组存储数据时，会提前申请一整块足够大小的物理空间，然后将数据依次存储起来，存储时做到数据元素之间不留一丝缝隙。
 
 例如，使用顺序表存储集合{1,2,3,4,5}，数据最终的存储状态如下所示：
+
 ![image](https://raw.githubusercontent.com/zhl1232/javascript-algorithm/master/static/img/array1.jpg)
 
 数组具有固定的容量，我们需要在初始化时指定数组的大小。有时它会非常不方便并可能造成浪费。
@@ -27,12 +28,15 @@
 数组的插入
 在{1,2,3,4,5}的第 3 个位置上插入元素 6，实现过程如下：
 - 遍历至顺序表存储第 3 个数据元素的位置
+
 ![image](https://raw.githubusercontent.com/zhl1232/javascript-algorithm/master/static/img/array2.jpg)
 
 - 将元素 3 以及后续元素 4 和 5 整体向后移动一个位置
+
 ![image](https://raw.githubusercontent.com/zhl1232/javascript-algorithm/master/static/img/array3.jpg)
 
 - 将新元素 6 放入腾出的位置
+
 ![image](https://raw.githubusercontent.com/zhl1232/javascript-algorithm/master/static/img/array4.jpg)
 
 因为要保持数组数据的连续性，所以插入和删除都要操作目标位置后面的元素。
@@ -46,7 +50,7 @@
 
 数组的常用 API 还是需要熟悉的，[MDN-Array](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-### 做好初始定
+### 做好初始定义
 
 做数组类算法问题的时候，我们常常需要定义一个变量，明确该变量的定义，并且在书写整个逻辑的时候，要不停的维护住这个变量的意义。也特别需要注意初始值和边界的问题。
 
@@ -57,4 +61,11 @@
 
 - [26. 删除排序数组中的重复项](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/26.md)
 
-- 
+- [80. 删除排序数组中的重复项 II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/80.md)
+
+### 运用基础算法思想
+
+典型的排序算法思想、二分查找思想的一些应用。
+
+- [75. 颜色分类](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/75.md)
+
