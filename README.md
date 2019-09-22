@@ -3,7 +3,7 @@
  * @Author: 张宏亮 - zhl@xiaoniren.cn
  * @Date: 2019-07-18 10:31:22
  * @LastEditors: 张宏亮<hongliang@yunshan.net>
- * @LastEditTime: 2019-09-22 16:04:39
+ * @LastEditTime: 2019-09-23 00:10:56
  * @Description: file content
  * @Versions: 1.0.0
  -->
@@ -39,6 +39,8 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 
 
 [数组类算法](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Array.md)
+
+[栈](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Stack.md)
 
 [trie树](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Trie.md)
 
