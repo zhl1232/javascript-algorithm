@@ -45,3 +45,4 @@
   let arr = [1,23,6,7,4,7,6,3,24,8,8]
   console.log(arr.quickSort());
 ```
+

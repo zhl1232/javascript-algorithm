@@ -73,6 +73,15 @@ export default class Stack {
 }
 ```
 
+## 其他实现方法
+
+上面的代码是用对象的方法实现的，还可以用其他数据结构现实。比如数组或者链表。
+
+新手可能数组实现更容易理解。
+
+[数组实现栈](https://github.com/zhl1232/javascript-algorithm/tree/master/section/StackArray.md)
+[链表实现栈](https://github.com/zhl1232/javascript-algorithm/tree/master/section/StackLinkedList.md)
+
 
 ## 下面属于进阶知识
 
