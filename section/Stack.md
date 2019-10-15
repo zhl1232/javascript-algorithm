@@ -73,6 +73,7 @@ export default class Stack {
 新手可能数组实现更容易理解。
 
 [数组实现栈](https://github.com/zhl1232/javascript-algorithm/tree/master/section/StackArray.md)
+
 [链表实现栈](https://github.com/zhl1232/javascript-algorithm/tree/master/section/StackLinkedList.md)
 
 
@@ -139,4 +140,6 @@ console.log(stack.size());   // 0
 ## 用栈解决问题
 
 [155. 最小栈](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/155.md)
+
+[20. 有效的括号](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/20.md)
 

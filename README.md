@@ -76,6 +76,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 [535. TinyURL 的加密与解密](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/535.md)| 中等 | **哈希表** **数学**
 [599. 两个列表的最小索引总和](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/599.md)| 简单 | **哈希表**
 [648. 单词替换](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/648.md)| 中等 | **哈希表** **字典树**
+[739. 每日温度](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/739.md)| 中等 | **栈** **哈希表**
 [771. 宝石与石头](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/771.md)| 简单 | **哈希表**
 [811. 子域名访问计数](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/811.md)| 简单 | **哈希表**
 [832. 翻转图像](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/599.md)| 简单 | **数组**

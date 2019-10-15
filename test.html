@@ -17,92 +17,25 @@
   </head>
   <body>
     <script>
+
       /**
-       * @param {string[]} dict
-       * @param {string} sentence
-       * @return {string}
+       * @param {number[]} T
+       * @return {number[]}
        */
-
-/**
-  * Trie
-  */
-class Trie {
-  constructor() {
-    this.root = new TrieNode(null)
-  }
-  insertData(stringData) {
-    this.insert(stringData, this.root)
-  }
-  insert(stringData, node) {
-    if (stringData == '') {
-      node.done = true
-      return
-    }
-    // 题目里都是单词，只有26个字母。用字母的 ASCII 码减 a 的 ASCII 码正好对应0-25
-    // const index = stringData[0].charCodeAt(0) - 'a'.charCodeAt(0)
-    let haveData = node.children.get(stringData[0])
-
-    if (haveData) {
-      this.insert(stringData.substring(1), haveData)
-    } else {
-      let newNode = new TrieNode(stringData[0])
-      // node.children[index] = newNode
-      node.children.set(stringData[0], newNode)
-      this.insert(stringData.substring(1), newNode)
-    }
-  }
-  search(stringData) {
-    let node = this.root
-    let res = ''
-    for (let i = 0; i < stringData.length; i++) {
-      // cattle
-      const element = stringData[i]
-      // const index = element.charCodeAt(0) - 'a'.charCodeAt(0)
-      const target = node.children.get(element)
-
-      if (node.done) {
-        break
-      } else if (target) {
-        res += target.key
-        node = target
-      } else {
-        res = ''
-        break
-      }
-    }
-    return res
-  }
-}
-/**
-  * 节点
-  * @param {*} key
-  */
-class TrieNode {
-  constructor(key) {
-    this.key = key // 节点字符
-    this.children = new Map() // 子节点集合
-  }
-}
-
-      var replaceWords = function(dict, sentence) {
-        const tree = new Trie()
-        for (let i = 0; i < dict.length; i++) {
-          tree.insertData(dict[i])
+      var dailyTemperatures = function(T) {
+        let res = new Array(T.length).fill(0)
+        let stack = []
+        for (let i = 0; i < T.length; i++) {
+          while (stack.length && T[i] > T[stack[stack.length - 1]]) {
+            let index = stack.pop()
+            res[index] = i - index
+          }
+          stack.push(i)
         }
-        console.log(tree)
-
-        return sentence
-          .split(' ')
-          .map(w => tree.search(w) || w)
-          .join(' ')
+        return res
       }
-
-      console.log(replaceWords(['cat', 'bat', 'rat'], 'the cattle was rattled by the battery'))
-      class test {
-        var 
-      }
+      console.log(dailyTemperatures([73, 74, 75, 71, 69, 72, 76, 73]));
+      
     </script>
-    用 js 写 leetcode
-    的解题思路，https://github.com/zhl1232/javascript-algorithm，可以关注下，一起学习。
   </body>
 </html>
