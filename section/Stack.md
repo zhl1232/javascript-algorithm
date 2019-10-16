@@ -77,6 +77,15 @@ export default class Stack {
 [链表实现栈](https://github.com/zhl1232/javascript-algorithm/tree/master/section/StackLinkedList.md)
 
 
+## 用栈解决问题
+
+[155. 最小栈](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/155.md)
+
+[20. 有效的括号](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/20.md)
+
+[739. 每日温度](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/739.md)
+
+
 ## 下面属于进阶知识
 
 在 js 里不管用对象还是数组模拟栈，都不能保护数据结构内部元素。
@@ -136,10 +145,3 @@ console.log(stack.pop());    // '12'
 console.log(stack.size());   // 0
 ```
 这样 items 在 stack 里就是真正的私有属性了。不过这种方法扩展该类时无法继承私有属性。
-
-## 用栈解决问题
-
-[155. 最小栈](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/155.md)
-
-[20. 有效的括号](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/20.md)
-
