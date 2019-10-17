@@ -69,11 +69,19 @@
 
 - [75. 颜色分类](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/75.md)
 
-215. 数组中的第K个最大元素  占坑
+- 215. 数组中的第K个最大元素  占坑
 
 ### 双索引技巧 - 对撞指针
 
-有一些 LeetCode 题目，我们可以采用对撞指针进行求解：指针 i 和 j 分别指向数组的第一个元素和最后一个元素，然后指针 i 不断向前， 指针 j 不断递减，知道 i = j（当然具体的逻辑操作根据题目的变化而变化）。
+有一些 LeetCode 题目，我们可以采用对撞指针进行求解：指针 i 和 j 分别指向数组的第一个元素和最后一个元素，然后指针 i 不断向前， 指针 j 不断递减，直到 i = j（当然具体的逻辑操作根据题目的变化而变化）。
+
+- [167. 两数之和 II - 输入有序数组](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/167.md)
+
+- [125. 验证回文串](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/125.md)
+
+- [345. 反转字符串中的元音字母](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/345.md)
+
+- [11. 有效的括号](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/11.md)
 
 ### 双索引技巧 - 滑动窗口
 
