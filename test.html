@@ -17,7 +17,21 @@
   </head>
   <body>
     <script>
+      let test = function(page, totle) {
+        let res = []
+        res[0] = page
+        for (let i = 1; i <= 2; i++) {
+          if (page - i > 0) {
+            res.unshift(page - i)
+          }
+          if (page + i <= totle) {
+            res.push(page + i)
+          }      
+        }
+        return res
+      }
 
+      console.log(test(8, 20))
     </script>
   </body>
 </html>

@@ -62,6 +62,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 [27. 移除元素](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/27.md) | 简单 | **双指针** **数组**
 [36. 有效的数独](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/36.md) | 中等 | **哈希表**
 [49. 字母异位词分组](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/49.md) | 中等 | **哈希表** **字符串**
+[50. Pow(x, n)](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/50.md) | 中等 | **数学** **二分查找**
 [75. 颜色分类](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/75.md) | 中等 | **排序** **数组** **双指针**
 [80. 删除排序数组中的重复项 II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/80.md) | 中等 | **双指针** **数组**
 [88. 未完成，占坑](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/88.md)
@@ -72,6 +73,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 [205. 同构字符串](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/205.md)| 简单 | **哈希表**
 [219. 存在重复元素 II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/219.md)| 简单 | **哈希表** **数组**
 [283. 移动零](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/283.md)| 简单 | **双指针** **数组**
+[344. 反转字符串](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/344.md)| 简单 | **双指针** **字符串**
 [345. 反转字符串中的元音字母](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/345.md)| 简单 | **双指针** **字符串**
 [349. 两个数组的交集](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/349.md)| 简单 | **排序** **哈希表** **双指针** **二分查找**
 [350. 两个数组的交集II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/350.md)| 简单 | **排序** **哈希表** **双指针** **二分查找**
