@@ -35,7 +35,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 
 # 学习资料
 
-之后会慢慢做各种数据类型的学习专题，持续更新。
+之后会慢慢做各种数据结构和算法的学习专题，持续更新。
 
 
 [数组类算法](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Array.md)
@@ -77,6 +77,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 [167. 两数之和 II - 输入有序数组](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/167.md) | 简单 | **数组** **双指针** **二分查找**
 [202. 快乐数](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/202.md)| 简单 | **哈希表** **数学**
 [205. 同构字符串](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/205.md)| 简单 | **哈希表**
+[209. 长度最小的子数组-二分方法未写](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/209.md)| 中等 | **数组** **双指针** **二分查找**
 [219. 存在重复元素 II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/219.md)| 简单 | **哈希表** **数组**
 [283. 移动零](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/283.md)| 简单 | **双指针** **数组**
 [344. 反转字符串](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/344.md)| 简单 | **双指针** **字符串**
