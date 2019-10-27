@@ -1,12 +1,3 @@
-<!--
- * @File: 
- * @Author: 张宏亮 - 66020423@qq.com
- * @Date: 2019-08-25 16:04:22
- * @LastEditors: 张宏亮<66020423@qq.com>
- * @LastEditTime: 2019-08-25 16:56:50
- * @Description: file content
- * @Versions: 1.0.0
- -->
 大顶堆
 ```js
   var len // 因为声明的多个函数都需要数据长度，所以把len设置成为全局变量

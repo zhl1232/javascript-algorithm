@@ -1,12 +1,3 @@
-<!--
- * @File: 
- * @Author: 张宏亮 - zhl@xiaoniren.cn
- * @Date: 2019-08-24 16:29:25
- * @LastEditors: 张宏亮<zhl@xiaoniren.cn>
- * @LastEditTime: 2019-08-24 16:44:37
- * @Description: file content
- * @Versions: 1.0.0
- -->
 ### 快速排序
 
 **数据结构	不定**

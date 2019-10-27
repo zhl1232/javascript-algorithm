@@ -17,21 +17,31 @@
   </head>
   <body>
     <script>
-      let test = function(page, totle) {
-        let res = []
-        res[0] = page
-        for (let i = 1; i <= 2; i++) {
-          if (page - i > 0) {
-            res.unshift(page - i)
-          }
-          if (page + i <= totle) {
-            res.push(page + i)
-          }      
-        }
-        return res
-      }
+var generate = function(numRows) {
+  let res = []
+  
+  return sub(0, numRows, res)
+}
 
-      console.log(test(8, 20))
+var sub = function(row, numRows, arr) {
+  let temp = []
+  if (row < numRows) {
+    for (let i = 0; i <= row; i++) {
+      if (row === 0) {
+        temp.push(1)
+      } else {
+        let left = i-1 >= 0 ? arr[row-1][i-1] : 0
+        let right = i < arr[row-1].length ? arr[row-1][i] : 0
+        temp.push(left+right)
+      }
+    }
+    arr.push(temp)
+    sub(++row, numRows, arr)
+    return arr
+  }
+}
+      console.log(generate(5));
+      
     </script>
   </body>
 </html>

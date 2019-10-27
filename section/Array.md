@@ -1,12 +1,3 @@
-<!--
- * @File: 
- * @Author: 张宏亮 - zhl@xiaoniren.cn
- * @Date: 2019-08-18 15:24:23
- * @LastEditors: 张宏亮<hongliang@yunshan.net>
- * @LastEditTime: 2019-09-30 15:45:16
- * @Description: file content
- * @Versions: 1.0.0
- -->
 # 数组
 
 与 Java 、PHP 等语言不同，在 JavaScript 中，数组其实是一种特殊的对象，是哈希结构，不是常规的数组结构。

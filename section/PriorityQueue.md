@@ -1,12 +1,3 @@
-<!--
- * @Author: 张宏亮
- * @Date: 2019-08-24 17:49:31
- * @LastEditors: 张宏亮<hongliang@yunshan.net>
- * @LastEditTime: 2019-08-24 17:49:31
- * @Description: file content
- * @Versions: 1.0.0
- -->
-
 ```js
 class PriorityQueue {
   constructor() {

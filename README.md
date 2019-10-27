@@ -40,6 +40,8 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 
 [数组类算法](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Array.md)
 
+[递归类算法](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Recursion.md)
+
 [栈](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Stack.md)
 
 [trie树](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Trie.md)
@@ -58,6 +60,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 -------------|---|---
 [11. 有效的括号](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/11.md) | 中等 | **数组** **双指针**
 [20. 有效的括号](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/20.md) | 简单 | **栈** **字符串**
+[24. 两两交换链表中的节点](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/24.md) | 中等 | **链表**
 [26. 删除排序数组中的重复项](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/26.md) | 简单 | **双指针** **数组**
 [27. 移除元素](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/27.md) | 简单 | **双指针** **数组**
 [36. 有效的数独](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/36.md) | 中等 | **哈希表**
@@ -66,6 +69,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 [75. 颜色分类](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/75.md) | 中等 | **排序** **数组** **双指针**
 [80. 删除排序数组中的重复项 II](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/80.md) | 中等 | **双指针** **数组**
 [88. 未完成，占坑](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/88.md)
+[118. 杨辉三角](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/118.md) | 简单 | **数组**
 [125. 验证回文串](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/125.md) | 简单 | **双指针** **字符串**
 [155. 最小栈](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/155.md) | 简单 | **栈** **设计**
 [167. 两数之和 II - 输入有序数组](https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/167.md) | 简单 | **数组** **双指针** **二分查找**

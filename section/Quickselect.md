@@ -1,14 +1,3 @@
-<!--
- * @File: 
- * @Author: 张宏亮 - zhl@xiaoniren.cn
- * @Date: 2019-08-24 14:48:24
- * @LastEditors: 张宏亮<zhl@xiaoniren.cn>
- * @LastEditTime: 2019-08-24 16:49:28
- * @Description: file content
- * @Versions: 1.0.0
- -->
-
-
 **数据结构	数组**
 
 **最坏时间复杂度	О(n2)**
