@@ -42,7 +42,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 
 [递归类算法](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Recursion.md)
 
-[哈希相关](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Recursion.md)
+[哈希相关](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Hash.md)
 
 [栈](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Stack.md)
 
