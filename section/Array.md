@@ -22,6 +22,8 @@
 
 ![image](https://raw.githubusercontent.com/zhl1232/javascript-algorithm/master/static/img/array2.jpg)
 
+![image](https://github.com/zhl1232/javascript-algorithm/raw/master/static/img/array2.jpg)
+
 - 将元素 3 以及后续元素 4 和 5 整体向后移动一个位置
 
 ![image](https://raw.githubusercontent.com/zhl1232/javascript-algorithm/master/static/img/array3.jpg)
