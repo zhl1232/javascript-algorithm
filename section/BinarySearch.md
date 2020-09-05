@@ -370,6 +370,98 @@ var findMin = function(nums) {
 
 
 
+### leetcode 34.在排序数组中查找元素的第一个和最后一个位置
+
+加了个可视化的展示。
+
+1. 二分查找
+2. 找不到, 也就是 low > high 返回 [-1, -1]
+3. 找到目标值, 将low, high两个指针都设为目标下标
+4. low往前, high往后, 直到找到和目标值不同为止 
+
+
+![leetcode34.gif](https://pic.leetcode-cn.com/1599288586-pCxufZ-leetcode34.gif)
+
+
+```js
+function searchRange (nums, target) {
+  let low = 0
+  let high = nums.length - 1
+  while (low <= high) {
+    let mid = ~~((low + high) / 2)
+    if (target === nums[mid]) {
+      low = mid
+      high = mid
+      break
+    }
+    if (target < nums[mid]) {
+      high = mid - 1
+    } else if (target > nums[mid]) {
+      low = mid + 1
+    }
+  }
+  if (low > high) {
+    return [-1, -1]
+  } else {
+    while (nums[low - 1] === target) low--
+    while (nums[high + 1] === target) high++
+    return [low, high]
+  }
+};
+```
+
+### leetcode 658. 找到 K 个最接近的元素
+
+### 解法一：堆栈的双指针
+
+和标签不一致的一次遍历
+
+- 时间复杂度:O(N - K)
+- 空间复杂度:O (1)
+
+在arr的长度超过k时，迭代地从数组的前端和末端去除与x相差较大的元素。(如果有相同的差异，从末尾删除一个元素)
+
+```js
+var findClosestElements = function(arr, k, x) {
+  let idx = 0;
+  while (k < arr.length - idx) {
+    const last = arr.pop();
+    if (last - x < x - arr[idx]) {
+      idx++;
+      arr.push(last);
+    }
+  }
+  return arr.slice(idx);
+};
+```
+### 解法二：二分查找
+
+- 时间复杂度:O(log N)
+- 空间复杂度:O (1)
+
+把 mid 看成结果的起始下标，判断是否正确。
+
+如果 arr[mid + k] 位置的差值比 arr[mid] 位置的差值小，那说明起始值比 mid 大。因为假设返回值窗口取的值是mid 到 [mid + k]，是 k + 1 的长度，不是 k 的长度。
+
+反之起始值肯定是mid或者在mid左边。
+
+
+1. 目的找到结果数组的起始下标
+2. 如果 x - arr[mid] > arr[mid + k] - x ，那么起始值肯定在mid右边
+3. 反之起始值肯定是 mid 或者在 mid 左边
+4. 返回起始值到 k-1 个元素
+
+
+```js
+var findClosestElements = function(arr, k, x) {
+  let low = 0, high = arr.length - 1;
+  while (low < high) {
+    const mid = low + Math.floor((high - low) / 2);
+    x - arr[mid] > arr[mid + k]- x ? low = mid + 1 : high = mid;
+  }
+  return arr.slice(low, low + k);
+};
+```
 
 ## 中位数补充
 
