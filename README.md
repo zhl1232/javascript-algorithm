@@ -60,7 +60,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[8.字符串转换整数(atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)|Medium|字符串|[题解](./solve-problems/8_字符串转换整数(atoi).md)|
 |[9.回文数](https://leetcode-cn.com/problems/palindrome-number/)|Easy|数学|[题解](./solve-problems/9_回文数.md)|
 |[10.正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)|Hard|递归 字符串 动态规划|[题解](./solve-problems/10_正则表达式匹配.md)|
-|[11.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)|Medium|贪心 数组 双指针|[题解](./solve-problems/11_盛最多水的容器.md) AC|
+|[11.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)|Medium|贪心 数组 双指针|[题解](./solve-problems/11_盛最多水的容器.md)AC|
 |[12.整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)|Medium|哈希表 数学 字符串|[题解](./solve-problems/12_整数转罗马数字.md)|
 |[13.罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)|Easy|哈希表 数学 字符串|[题解](./solve-problems/13_罗马数字转整数.md)|
 |[14.最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)|Easy|字符串|[题解](./solve-problems/14_最长公共前缀.md)|
@@ -69,14 +69,14 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[17.电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|Medium|哈希表 字符串 回溯|[题解](./solve-problems/17_电话号码的字母组合.md)|
 |[18.四数之和](https://leetcode-cn.com/problems/4sum/)|Medium|数组 双指针 排序|[题解](./solve-problems/18_四数之和.md)|
 |[19.删除链表的倒数第N个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|Medium|链表 双指针|[题解](./solve-problems/19_删除链表的倒数第N个结点.md)|
-|[20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|Easy|栈 字符串|[题解](./solve-problems/20_有效的括号.md) AC|
+|[20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|Easy|栈 字符串|[题解](./solve-problems/20_有效的括号.md)AC|
 |[21.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|Easy|递归 链表|[题解](./solve-problems/21_合并两个有序链表.md)|
 |[22.括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|Medium|字符串 动态规划 回溯|[题解](./solve-problems/22_括号生成.md)|
 |[23.合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|Hard|链表 分治 堆（优先队列） 归并排序|[题解](./solve-problems/23_合并K个升序链表.md)|
-|[24.两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)|Medium|递归 链表|[题解](./solve-problems/24_两两交换链表中的节点.md)|
+|[24.两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)|Medium|递归 链表|[题解](./solve-problems/24_两两交换链表中的节点.md)AC|
 |[25.K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|Hard|递归 链表|[题解](./solve-problems/25_K个一组翻转链表.md)|
-|[26.删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|Easy|数组 双指针|[题解](./solve-problems/26_删除有序数组中的重复项.md)|
-|[27.移除元素](https://leetcode-cn.com/problems/remove-element/)|Easy|数组 双指针|[题解](./solve-problems/27_移除元素.md)|
+|[26.删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|Easy|数组 双指针|[题解](./solve-problems/26_删除有序数组中的重复项.md)AC|
+|[27.移除元素](https://leetcode-cn.com/problems/remove-element/)|Easy|数组 双指针|[题解](./solve-problems/27_移除元素.md)AC|
 |[28.实现strStr()](https://leetcode-cn.com/problems/implement-strstr/)|Easy|双指针 字符串 字符串匹配|[题解](./solve-problems/28_实现strStr().md)|
 |[29.两数相除](https://leetcode-cn.com/problems/divide-two-integers/)|Medium|位运算 数学|[题解](./solve-problems/29_两数相除.md)|
 |[30.串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)|Hard|哈希表 字符串 滑动窗口|[题解](./solve-problems/30_串联所有单词的子串.md)|
@@ -85,7 +85,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[33.搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|Medium|数组 二分查找|[题解](./solve-problems/33_搜索旋转排序数组.md)|
 |[34.在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|Medium|数组 二分查找|[题解](./solve-problems/34_在排序数组中查找元素的第一个和最后一个位置.md)|
 |[35.搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|Easy|数组 二分查找|[题解](./solve-problems/35_搜索插入位置.md)|
-|[36.有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)|Medium|数组 哈希表 矩阵|[题解](./solve-problems/36_有效的数独.md)|
+|[36.有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)|Medium|数组 哈希表 矩阵|[题解](./solve-problems/36_有效的数独.md)AC|
 |[37.解数独](https://leetcode-cn.com/problems/sudoku-solver/)|Hard|数组 回溯 矩阵|[题解](./solve-problems/37_解数独.md)|
 |[38.外观数列](https://leetcode-cn.com/problems/count-and-say/)|Medium|字符串|[题解](./solve-problems/38_外观数列.md)|
 |[39.组合总和](https://leetcode-cn.com/problems/combination-sum/)|Medium|数组 回溯|[题解](./solve-problems/39_组合总和.md)|
@@ -98,8 +98,8 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[46.全排列](https://leetcode-cn.com/problems/permutations/)|Medium|数组 回溯|[题解](./solve-problems/46_全排列.md)|
 |[47.全排列II](https://leetcode-cn.com/problems/permutations-ii/)|Medium|数组 回溯|[题解](./solve-problems/47_全排列II.md)|
 |[48.旋转图像](https://leetcode-cn.com/problems/rotate-image/)|Medium|数组 数学 矩阵|[题解](./solve-problems/48_旋转图像.md)|
-|[49.字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)|Medium|哈希表 字符串 排序|[题解](./solve-problems/49_字母异位词分组.md)|
-|[50.Pow(x,n)](https://leetcode-cn.com/problems/powx-n/)|Medium|递归 数学|[题解](./solve-problems/50_Pow(x,n).md)|
+|[49.字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)|Medium|哈希表 字符串 排序|[题解](./solve-problems/49_字母异位词分组.md)AC|
+|[50.Pow(x,n)](https://leetcode-cn.com/problems/powx-n/)|Medium|递归 数学|[题解](./solve-problems/50_Pow(x,n).md)AC|
 |[51.N皇后](https://leetcode-cn.com/problems/n-queens/)|Hard|数组 回溯|[题解](./solve-problems/51_N皇后.md)|
 |[52.N皇后II](https://leetcode-cn.com/problems/n-queens-ii/)|Hard|回溯|[题解](./solve-problems/52_N皇后II.md)|
 |[53.最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|Easy|数组 分治 动态规划|[题解](./solve-problems/53_最大子序和.md)|
@@ -124,12 +124,12 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[72.编辑距离](https://leetcode-cn.com/problems/edit-distance/)|Hard|字符串 动态规划|[题解](./solve-problems/72_编辑距离.md)|
 |[73.矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/)|Medium|数组 哈希表 矩阵|[题解](./solve-problems/73_矩阵置零.md)|
 |[74.搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)|Medium|数组 二分查找 矩阵|[题解](./solve-problems/74_搜索二维矩阵.md)|
-|[75.颜色分类](https://leetcode-cn.com/problems/sort-colors/)|Medium|数组 双指针 排序|[题解](./solve-problems/75_颜色分类.md)|
+|[75.颜色分类](https://leetcode-cn.com/problems/sort-colors/)|Medium|数组 双指针 排序|[题解](./solve-problems/75_颜色分类.md)AC|
 |[76.最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)|Hard|哈希表 字符串 滑动窗口|[题解](./solve-problems/76_最小覆盖子串.md)|
 |[77.组合](https://leetcode-cn.com/problems/combinations/)|Medium|数组 回溯|[题解](./solve-problems/77_组合.md)|
 |[78.子集](https://leetcode-cn.com/problems/subsets/)|Medium|位运算 数组 回溯|[题解](./solve-problems/78_子集.md)|
 |[79.单词搜索](https://leetcode-cn.com/problems/word-search/)|Medium|数组 回溯 矩阵|[题解](./solve-problems/79_单词搜索.md)|
-|[80.删除有序数组中的重复项II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|数组 双指针|[题解](./solve-problems/80_删除有序数组中的重复项II.md)|
+|[80.删除有序数组中的重复项II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)|Medium|数组 双指针|[题解](./solve-problems/80_删除有序数组中的重复项II.md)AC|
 |[81.搜索旋转排序数组II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)|Medium|数组 二分查找|[题解](./solve-problems/81_搜索旋转排序数组II.md)|
 |[82.删除排序链表中的重复元素II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)|Medium|链表 双指针|[题解](./solve-problems/82_删除排序链表中的重复元素II.md)|
 |[83.删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|Easy|链表|[题解](./solve-problems/83_删除排序链表中的重复元素.md)|
@@ -137,7 +137,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[85.最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/)|Hard|栈 数组 动态规划 矩阵 单调栈|[题解](./solve-problems/85_最大矩形.md)|
 |[86.分隔链表](https://leetcode-cn.com/problems/partition-list/)|Medium|链表 双指针|[题解](./solve-problems/86_分隔链表.md)|
 |[87.扰乱字符串](https://leetcode-cn.com/problems/scramble-string/)|Hard|字符串 动态规划|[题解](./solve-problems/87_扰乱字符串.md)|
-|[88.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)|Easy|数组 双指针 排序|[题解](./solve-problems/88_合并两个有序数组.md)|
+|[88.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)|Easy|数组 双指针 排序|[题解](./solve-problems/88_合并两个有序数组.md)AC|
 |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/)|Medium|位运算 数学 回溯|[题解](./solve-problems/89_格雷编码.md)|
 |[90.子集II](https://leetcode-cn.com/problems/subsets-ii/)|Medium|位运算 数组 回溯|[题解](./solve-problems/90_子集II.md)|
 |[91.解码方法](https://leetcode-cn.com/problems/decode-ways/)|Medium|字符串 动态规划|[题解](./solve-problems/91_解码方法.md)|
@@ -167,14 +167,14 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[115.不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/)|Hard|字符串 动态规划|[题解](./solve-problems/115_不同的子序列.md)|
 |[116.填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)|Medium|树 深度优先搜索 广度优先搜索 二叉树|[题解](./solve-problems/116_填充每个节点的下一个右侧节点指针.md)|
 |[117.填充每个节点的下一个右侧节点指针II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)|Medium|树 深度优先搜索 广度优先搜索 二叉树|[题解](./solve-problems/117_填充每个节点的下一个右侧节点指针II.md)|
-|[118.杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)|Easy|数组 动态规划|[题解](./solve-problems/118_杨辉三角.md)|
+|[118.杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)|Easy|数组 动态规划|[题解](./solve-problems/118_杨辉三角.md)AC|
 |[119.杨辉三角II](https://leetcode-cn.com/problems/pascals-triangle-ii/)|Easy|数组 动态规划|[题解](./solve-problems/119_杨辉三角II.md)|
 |[120.三角形最小路径和](https://leetcode-cn.com/problems/triangle/)|Medium|数组 动态规划|[题解](./solve-problems/120_三角形最小路径和.md)|
 |[121.买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|Easy|数组 动态规划|[题解](./solve-problems/121_买卖股票的最佳时机.md)|
 |[122.买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|Easy|贪心 数组 动态规划|[题解](./solve-problems/122_买卖股票的最佳时机II.md)|
 |[123.买卖股票的最佳时机III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)|Hard|数组 动态规划|[题解](./solve-problems/123_买卖股票的最佳时机III.md)|
 |[124.二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)|Hard|树 深度优先搜索 动态规划 二叉树|[题解](./solve-problems/124_二叉树中的最大路径和.md)|
-|[125.验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)|Easy|双指针 字符串|[题解](./solve-problems/125_验证回文串.md)|
+|[125.验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)|Easy|双指针 字符串|[题解](./solve-problems/125_验证回文串.md)AC|
 |[126.单词接龙II](https://leetcode-cn.com/problems/word-ladder-ii/)|Hard|广度优先搜索 哈希表 字符串 回溯|[题解](./solve-problems/126_单词接龙II.md)|
 |[127.单词接龙](https://leetcode-cn.com/problems/word-ladder/)|Hard|广度优先搜索 哈希表 字符串|[题解](./solve-problems/127_单词接龙.md)|
 |[128.最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)|Medium|并查集 数组 哈希表|[题解](./solve-problems/128_最长连续序列.md)|
@@ -204,7 +204,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[152.乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)|Medium|数组 动态规划|[题解](./solve-problems/152_乘积最大子数组.md)|
 |[153.寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|数组 二分查找|[题解](./solve-problems/153_寻找旋转排序数组中的最小值.md)|
 |[154.寻找旋转排序数组中的最小值II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|数组 二分查找|[题解](./solve-problems/154_寻找旋转排序数组中的最小值II.md)|
-|[155.最小栈](https://leetcode-cn.com/problems/min-stack/)|Easy|栈 设计|[题解](./solve-problems/155_最小栈.md)|
+|[155.最小栈](https://leetcode-cn.com/problems/min-stack/)|Easy|栈 设计|[题解](./solve-problems/155_最小栈.md)AC|
 |[156.上下翻转二叉树](https://leetcode-cn.com/problems/binary-tree-upside-down/)|Medium|树 深度优先搜索 二叉树|[题解](./solve-problems/156_上下翻转二叉树.md)|
 |[157.用Read4读取N个字符](https://leetcode-cn.com/problems/read-n-characters-given-read4/)|Easy|字符串 交互 模拟|[题解](./solve-problems/157_用Read4读取N个字符.md)|
 |[158.用Read4读取N个字符II](https://leetcode-cn.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)|Hard|字符串 交互 模拟|[题解](./solve-problems/158_用Read4读取N个字符II.md)|
@@ -216,7 +216,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[164.最大间距](https://leetcode-cn.com/problems/maximum-gap/)|Hard|数组 桶排序 基数排序 排序|[题解](./solve-problems/164_最大间距.md)|
 |[165.比较版本号](https://leetcode-cn.com/problems/compare-version-numbers/)|Medium|双指针 字符串|[题解](./solve-problems/165_比较版本号.md)|
 |[166.分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/)|Medium|哈希表 数学 字符串|[题解](./solve-problems/166_分数到小数.md)|
-|[167.两数之和II-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|Easy|数组 双指针 二分查找|[题解](./solve-problems/167_两数之和II-输入有序数组.md)|
+|[167.两数之和II-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|Easy|数组 双指针 二分查找|[题解](./solve-problems/167_两数之和II-输入有序数组.md)AC|
 |[168.Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/)|Easy|数学 字符串|[题解](./solve-problems/168_Excel表列名称.md)|
 |[169.多数元素](https://leetcode-cn.com/problems/majority-element/)|Easy|数组 哈希表 分治 计数 排序|[题解](./solve-problems/169_多数元素.md)|
 |[170.两数之和III-数据结构设计](https://leetcode-cn.com/problems/two-sum-iii-data-structure-design/)|Easy|设计 数组 哈希表 双指针 数据流|[题解](./solve-problems/170_两数之和III-数据结构设计.md)|
@@ -251,14 +251,14 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[199.二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)|Medium|树 深度优先搜索 广度优先搜索 二叉树|[题解](./solve-problems/199_二叉树的右视图.md)|
 |[200.岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)|Medium|深度优先搜索 广度优先搜索 并查集 数组 矩阵|[题解](./solve-problems/200_岛屿数量.md)|
 |[201.数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)|Medium|位运算|[题解](./solve-problems/201_数字范围按位与.md)|
-|[202.快乐数](https://leetcode-cn.com/problems/happy-number/)|Easy|哈希表 数学 双指针|[题解](./solve-problems/202_快乐数.md)|
+|[202.快乐数](https://leetcode-cn.com/problems/happy-number/)|Easy|哈希表 数学 双指针|[题解](./solve-problems/202_快乐数.md)AC|
 |[203.移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)|Easy|递归 链表|[题解](./solve-problems/203_移除链表元素.md)|
 |[204.计数质数](https://leetcode-cn.com/problems/count-primes/)|Easy|数组 数学 枚举 数论|[题解](./solve-problems/204_计数质数.md)|
-|[205.同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/)|Easy|哈希表 字符串|[题解](./solve-problems/205_同构字符串.md)|
+|[205.同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/)|Easy|哈希表 字符串|[题解](./solve-problems/205_同构字符串.md)AC|
 |[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)|Easy|递归 链表|[题解](./solve-problems/206_反转链表.md)|
 |[207.课程表](https://leetcode-cn.com/problems/course-schedule/)|Medium|深度优先搜索 广度优先搜索 图 拓扑排序|[题解](./solve-problems/207_课程表.md)|
 |[208.实现Trie(前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)|Medium|设计 字典树 哈希表 字符串|[题解](./solve-problems/208_实现Trie(前缀树).md)|
-|[209.长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)|Medium|数组 二分查找 前缀和 滑动窗口|[题解](./solve-problems/209_长度最小的子数组.md)|
+|[209.长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)|Medium|数组 二分查找 前缀和 滑动窗口|[题解](./solve-problems/209_长度最小的子数组.md)AC|
 |[210.课程表II](https://leetcode-cn.com/problems/course-schedule-ii/)|Medium|深度优先搜索 广度优先搜索 图 拓扑排序|[题解](./solve-problems/210_课程表II.md)|
 |[211.添加与搜索单词-数据结构设计](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)|Medium|深度优先搜索 设计 字典树 字符串|[题解](./solve-problems/211_添加与搜索单词-数据结构设计.md)|
 |[212.单词搜索II](https://leetcode-cn.com/problems/word-search-ii/)|Hard|字典树 数组 字符串 回溯 矩阵|[题解](./solve-problems/212_单词搜索II.md)|
@@ -268,7 +268,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[216.组合总和III](https://leetcode-cn.com/problems/combination-sum-iii/)|Medium|数组 回溯|[题解](./solve-problems/216_组合总和III.md)|
 |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)|Easy|数组 哈希表 排序|[题解](./solve-problems/217_存在重复元素.md)|
 |[218.天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)|Hard|树状数组 线段树 数组 分治 有序集合 扫描线 堆（优先队列）|[题解](./solve-problems/218_天际线问题.md)|
-|[219.存在重复元素II](https://leetcode-cn.com/problems/contains-duplicate-ii/)|Easy|数组 哈希表 滑动窗口|[题解](./solve-problems/219_存在重复元素II.md)|
+|[219.存在重复元素II](https://leetcode-cn.com/problems/contains-duplicate-ii/)|Easy|数组 哈希表 滑动窗口|[题解](./solve-problems/219_存在重复元素II.md)AC|
 |[220.存在重复元素III](https://leetcode-cn.com/problems/contains-duplicate-iii/)|Medium|数组 桶排序 有序集合 排序 滑动窗口|[题解](./solve-problems/220_存在重复元素III.md)|
 |[221.最大正方形](https://leetcode-cn.com/problems/maximal-square/)|Medium|数组 动态规划 矩阵|[题解](./solve-problems/221_最大正方形.md)|
 |[222.完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)|Medium|树 深度优先搜索 二分查找 二叉树|[题解](./solve-problems/222_完全二叉树的节点个数.md)|
@@ -332,7 +332,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[280.摆动排序](https://leetcode-cn.com/problems/wiggle-sort/)|Medium|贪心 数组 排序|[题解](./solve-problems/280_摆动排序.md)|
 |[281.锯齿迭代器](https://leetcode-cn.com/problems/zigzag-iterator/)|Medium|设计 队列 数组 迭代器|[题解](./solve-problems/281_锯齿迭代器.md)|
 |[282.给表达式添加运算符](https://leetcode-cn.com/problems/expression-add-operators/)|Hard|数学 字符串 回溯|[题解](./solve-problems/282_给表达式添加运算符.md)|
-|[283.移动零](https://leetcode-cn.com/problems/move-zeroes/)|Easy|数组 双指针|[题解](./solve-problems/283_移动零.md)|
+|[283.移动零](https://leetcode-cn.com/problems/move-zeroes/)|Easy|数组 双指针|[题解](./solve-problems/283_移动零.md)AC|
 |[284.顶端迭代器](https://leetcode-cn.com/problems/peeking-iterator/)|Medium|设计 数组 迭代器|[题解](./solve-problems/284_顶端迭代器.md)|
 |[285.二叉搜索树中的中序后继](https://leetcode-cn.com/problems/inorder-successor-in-bst/)|Medium|树 深度优先搜索 二叉搜索树 二叉树|[题解](./solve-problems/285_二叉搜索树中的中序后继.md)|
 |[286.墙与门](https://leetcode-cn.com/problems/walls-and-gates/)|Medium|广度优先搜索 数组 矩阵|[题解](./solve-problems/286_墙与门.md)|
@@ -393,13 +393,13 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[341.扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)|Medium|栈 树 深度优先搜索 设计 队列 迭代器|[题解](./solve-problems/341_扁平化嵌套列表迭代器.md)|
 |[342.4的幂](https://leetcode-cn.com/problems/power-of-four/)|Easy|位运算 递归 数学|[题解](./solve-problems/342_4的幂.md)|
 |[343.整数拆分](https://leetcode-cn.com/problems/integer-break/)|Medium|数学 动态规划|[题解](./solve-problems/343_整数拆分.md)|
-|[344.反转字符串](https://leetcode-cn.com/problems/reverse-string/)|Easy|递归 双指针 字符串|[题解](./solve-problems/344_反转字符串.md)|
-|[345.反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)|Easy|双指针 字符串|[题解](./solve-problems/345_反转字符串中的元音字母.md)|
+|[344.反转字符串](https://leetcode-cn.com/problems/reverse-string/)|Easy|递归 双指针 字符串|[题解](./solve-problems/344_反转字符串.md)AC|
+|[345.反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)|Easy|双指针 字符串|[题解](./solve-problems/345_反转字符串中的元音字母.md)AC|
 |[346.数据流中的移动平均值](https://leetcode-cn.com/problems/moving-average-from-data-stream/)|Easy|设计 队列 数组 数据流|[题解](./solve-problems/346_数据流中的移动平均值.md)|
 |[347.前K个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)|Medium|数组 哈希表 分治 桶排序 计数 快速选择 排序 堆（优先队列）|[题解](./solve-problems/347_前K个高频元素.md)|
 |[348.设计井字棋](https://leetcode-cn.com/problems/design-tic-tac-toe/)|Medium|设计 数组 哈希表 矩阵|[题解](./solve-problems/348_设计井字棋.md)|
-|[349.两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)|Easy|数组 哈希表 双指针 二分查找 排序|[题解](./solve-problems/349_两个数组的交集.md)|
-|[350.两个数组的交集II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|Easy|数组 哈希表 双指针 二分查找 排序|[题解](./solve-problems/350_两个数组的交集II.md)|
+|[349.两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)|Easy|数组 哈希表 双指针 二分查找 排序|[题解](./solve-problems/349_两个数组的交集.md)AC|
+|[350.两个数组的交集II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|Easy|数组 哈希表 双指针 二分查找 排序|[题解](./solve-problems/350_两个数组的交集II.md)AC|
 |[351.安卓系统手势解锁](https://leetcode-cn.com/problems/android-unlock-patterns/)|Medium|动态规划 回溯|[题解](./solve-problems/351_安卓系统手势解锁.md)|
 |[352.将数据流变为多个不相交区间](https://leetcode-cn.com/problems/data-stream-as-disjoint-intervals/)|Hard|设计 二分查找 有序集合|[题解](./solve-problems/352_将数据流变为多个不相交区间.md)|
 |[353.贪吃蛇](https://leetcode-cn.com/problems/design-snake-game/)|Medium|设计 队列 数组 矩阵|[题解](./solve-problems/353_贪吃蛇.md)|
@@ -436,7 +436,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[384.打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/)|Medium|数组 数学 随机化|[题解](./solve-problems/384_打乱数组.md)|
 |[385.迷你语法分析器](https://leetcode-cn.com/problems/mini-parser/)|Medium|栈 深度优先搜索 字符串|[题解](./solve-problems/385_迷你语法分析器.md)|
 |[386.字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/)|Medium|深度优先搜索 字典树|[题解](./solve-problems/386_字典序排数.md)|
-|[387.字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|Easy|队列 哈希表 字符串 计数|[题解](./solve-problems/387_字符串中的第一个唯一字符.md)|
+|[387.字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|Easy|队列 哈希表 字符串 计数|[题解](./solve-problems/387_字符串中的第一个唯一字符.md)AC|
 |[388.文件的最长绝对路径](https://leetcode-cn.com/problems/longest-absolute-file-path/)|Medium|栈 深度优先搜索 字符串|[题解](./solve-problems/388_文件的最长绝对路径.md)|
 |[389.找不同](https://leetcode-cn.com/problems/find-the-difference/)|Easy|位运算 哈希表 字符串 排序|[题解](./solve-problems/389_找不同.md)|
 |[390.消除游戏](https://leetcode-cn.com/problems/elimination-game/)|Medium|数学|[题解](./solve-problems/390_消除游戏.md)|
@@ -540,7 +540,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[496.下一个更大元素I](https://leetcode-cn.com/problems/next-greater-element-i/)|Easy|栈 数组 哈希表 单调栈|[题解](./solve-problems/496_下一个更大元素I.md)|
 |[498.对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/)|Medium|数组 矩阵 模拟|[题解](./solve-problems/498_对角线遍历.md)|
 |[499.迷宫III](https://leetcode-cn.com/problems/the-maze-iii/)|Hard|深度优先搜索 广度优先搜索 图 最短路 堆（优先队列）|[题解](./solve-problems/499_迷宫III.md)|
-|[500.键盘行](https://leetcode-cn.com/problems/keyboard-row/)|Easy|数组 哈希表 字符串|[题解](./solve-problems/500_键盘行.md)|
+|[500.键盘行](https://leetcode-cn.com/problems/keyboard-row/)|Easy|数组 哈希表 字符串|[题解](./solve-problems/500_键盘行.md)AC|
 |[501.二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/)|Easy|树 深度优先搜索 二叉搜索树 二叉树|[题解](./solve-problems/501_二叉搜索树中的众数.md)|
 |[502.IPO](https://leetcode-cn.com/problems/ipo/)|Hard|贪心 数组 排序 堆（优先队列）|[题解](./solve-problems/502_IPO.md)|
 |[503.下一个更大元素II](https://leetcode-cn.com/problems/next-greater-element-ii/)|Medium|栈 数组 单调栈|[题解](./solve-problems/503_下一个更大元素II.md)|
@@ -571,7 +571,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[531.孤独像素I](https://leetcode-cn.com/problems/lonely-pixel-i/)|Medium|数组 哈希表 矩阵|[题解](./solve-problems/531_孤独像素I.md)|
 |[532.数组中的k-diff数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/)|Medium|数组 哈希表 双指针 二分查找 排序|[题解](./solve-problems/532_数组中的k-diff数对.md)|
 |[533.孤独像素II](https://leetcode-cn.com/problems/lonely-pixel-ii/)|Medium|数组 哈希表 矩阵|[题解](./solve-problems/533_孤独像素II.md)|
-|[535.TinyURL的加密与解密](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)|Medium|设计 哈希表 字符串 哈希函数|[题解](./solve-problems/535_TinyURL的加密与解密.md)|
+|[535.TinyURL的加密与解密](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)|Medium|设计 哈希表 字符串 哈希函数|[题解](./solve-problems/535_TinyURL的加密与解密.md)AC|
 |[536.从字符串生成二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-string/)|Medium|树 深度优先搜索 字符串 二叉树|[题解](./solve-problems/536_从字符串生成二叉树.md)|
 |[537.复数乘法](https://leetcode-cn.com/problems/complex-number-multiplication/)|Medium|数学 字符串 模拟|[题解](./solve-problems/537_复数乘法.md)|
 |[538.把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)|Medium|树 深度优先搜索 二叉搜索树 二叉树|[题解](./solve-problems/538_把二叉搜索树转换为累加树.md)|
@@ -631,7 +631,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[596.超过5名学生的课](https://leetcode-cn.com/problems/classes-more-than-5-students/)|Easy|数据库|[题解](./solve-problems/596_超过5名学生的课.md)|
 |[597.好友申请I：总体通过率](https://leetcode-cn.com/problems/friend-requests-i-overall-acceptance-rate/)|Easy|数据库|[题解](./solve-problems/597_好友申请I：总体通过率.md)|
 |[598.范围求和II](https://leetcode-cn.com/problems/range-addition-ii/)|Easy|数组 数学|[题解](./solve-problems/598_范围求和II.md)|
-|[599.两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)|Easy|数组 哈希表 字符串|[题解](./solve-problems/599_两个列表的最小索引总和.md)|
+|[599.两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)|Easy|数组 哈希表 字符串|[题解](./solve-problems/599_两个列表的最小索引总和.md)AC|
 |[600.不含连续1的非负整数](https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones/)|Hard|动态规划|[题解](./solve-problems/600_不含连续1的非负整数.md)|
 |[601.体育馆的人流量](https://leetcode-cn.com/problems/human-traffic-of-stadium/)|Hard|数据库|[题解](./solve-problems/601_体育馆的人流量.md)|
 |[602.好友申请II：谁有最多的好友](https://leetcode-cn.com/problems/friend-requests-ii-who-has-the-most-friends/)|Medium|数据库|[题解](./solve-problems/602_好友申请II：谁有最多的好友.md)|
@@ -678,7 +678,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[645.错误的集合](https://leetcode-cn.com/problems/set-mismatch/)|Easy|位运算 数组 哈希表 排序|[题解](./solve-problems/645_错误的集合.md)|
 |[646.最长数对链](https://leetcode-cn.com/problems/maximum-length-of-pair-chain/)|Medium|贪心 数组 动态规划 排序|[题解](./solve-problems/646_最长数对链.md)|
 |[647.回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)|Medium|字符串 动态规划|[题解](./solve-problems/647_回文子串.md)|
-|[648.单词替换](https://leetcode-cn.com/problems/replace-words/)|Medium|字典树 数组 哈希表 字符串|[题解](./solve-problems/648_单词替换.md)|
+|[648.单词替换](https://leetcode-cn.com/problems/replace-words/)|Medium|字典树 数组 哈希表 字符串|[题解](./solve-problems/648_单词替换.md)AC|
 |[649.Dota2参议院](https://leetcode-cn.com/problems/dota2-senate/)|Medium|贪心 队列 字符串|[题解](./solve-problems/649_Dota2参议院.md)|
 |[650.只有两个键的键盘](https://leetcode-cn.com/problems/2-keys-keyboard/)|Medium|数学 动态规划|[题解](./solve-problems/650_只有两个键的键盘.md)|
 |[651.4键键盘](https://leetcode-cn.com/problems/4-keys-keyboard/)|Medium|数学 动态规划|[题解](./solve-problems/651_4键键盘.md)|
@@ -758,7 +758,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[736.Lisp语法解析](https://leetcode-cn.com/problems/parse-lisp-expression/)|Hard|栈 递归 哈希表 字符串|[题解](./solve-problems/736_Lisp语法解析.md)|
 |[737.句子相似性II](https://leetcode-cn.com/problems/sentence-similarity-ii/)|Medium|深度优先搜索 广度优先搜索 并查集 数组 哈希表 字符串|[题解](./solve-problems/737_句子相似性II.md)|
 |[738.单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/)|Medium|贪心 数学|[题解](./solve-problems/738_单调递增的数字.md)|
-|[739.每日温度](https://leetcode-cn.com/problems/daily-temperatures/)|Medium|栈 数组 单调栈|[题解](./solve-problems/739_每日温度.md)|
+|[739.每日温度](https://leetcode-cn.com/problems/daily-temperatures/)|Medium|栈 数组 单调栈|[题解](./solve-problems/739_每日温度.md)AC|
 |[740.删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn/)|Medium|数组 哈希表 动态规划|[题解](./solve-problems/740_删除并获得点数.md)|
 |[741.摘樱桃](https://leetcode-cn.com/problems/cherry-pickup/)|Hard|数组 动态规划 矩阵|[题解](./solve-problems/741_摘樱桃.md)|
 |[709.转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/)|Easy|字符串|[题解](./solve-problems/709_转换成小写字母.md)|
@@ -801,7 +801,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[768.最多能完成排序的块II](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/)|Hard|栈 贪心 数组 排序 单调栈|[题解](./solve-problems/768_最多能完成排序的块II.md)|
 |[769.最多能完成排序的块](https://leetcode-cn.com/problems/max-chunks-to-make-sorted/)|Medium|栈 贪心 数组 排序 单调栈|[题解](./solve-problems/769_最多能完成排序的块.md)|
 |[770.基本计算器IV](https://leetcode-cn.com/problems/basic-calculator-iv/)|Hard|栈 递归 哈希表 数学 字符串|[题解](./solve-problems/770_基本计算器IV.md)|
-|[771.宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)|Easy|哈希表 字符串|[题解](./solve-problems/771_宝石与石头.md)|
+|[771.宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)|Easy|哈希表 字符串|[题解](./solve-problems/771_宝石与石头.md)AC|
 |[700.二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|Easy|树 二叉搜索树 二叉树|[题解](./solve-problems/700_二叉搜索树中的搜索.md)|
 |[701.二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|Medium|树 二叉搜索树 二叉树|[题解](./solve-problems/701_二叉搜索树中的插入操作.md)|
 |[772.基本计算器III](https://leetcode-cn.com/problems/basic-calculator-iii/)|Hard|栈 递归 数学 字符串|[题解](./solve-problems/772_基本计算器III.md)|
@@ -835,8 +835,8 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[797.所有可能的路径](https://leetcode-cn.com/problems/all-paths-from-source-to-target/)|Medium|深度优先搜索 广度优先搜索 图 回溯|[题解](./solve-problems/797_所有可能的路径.md)|
 |[798.得分最高的最小轮调](https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/)|Hard|数组 前缀和|[题解](./solve-problems/798_得分最高的最小轮调.md)|
 |[799.香槟塔](https://leetcode-cn.com/problems/champagne-tower/)|Medium|动态规划|[题解](./solve-problems/799_香槟塔.md)|
-|[705.设计哈希集合](https://leetcode-cn.com/problems/design-hashset/)|Easy|设计 数组 哈希表 链表 哈希函数|[题解](./solve-problems/705_设计哈希集合.md)|
-|[706.设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/)|Easy|设计 数组 哈希表 链表 哈希函数|[题解](./solve-problems/706_设计哈希映射.md)|
+|[705.设计哈希集合](https://leetcode-cn.com/problems/design-hashset/)|Easy|设计 数组 哈希表 链表 哈希函数|[题解](./solve-problems/705_设计哈希集合.md)AC|
+|[706.设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/)|Easy|设计 数组 哈希表 链表 哈希函数|[题解](./solve-problems/706_设计哈希映射.md)AC|
 |[800.相似RGB颜色](https://leetcode-cn.com/problems/similar-rgb-color/)|Easy|数学 字符串 枚举|[题解](./solve-problems/800_相似RGB颜色.md)|
 |[801.使序列递增的最小交换次数](https://leetcode-cn.com/problems/minimum-swaps-to-make-sequences-increasing/)|Hard|数组 动态规划|[题解](./solve-problems/801_使序列递增的最小交换次数.md)|
 |[802.找到最终的安全状态](https://leetcode-cn.com/problems/find-eventual-safe-states/)|Medium|深度优先搜索 广度优先搜索 图 拓扑排序|[题解](./solve-problems/802_找到最终的安全状态.md)|
@@ -848,7 +848,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[808.分汤](https://leetcode-cn.com/problems/soup-servings/)|Medium|数学 动态规划 概率与统计|[题解](./solve-problems/808_分汤.md)|
 |[809.情感丰富的文字](https://leetcode-cn.com/problems/expressive-words/)|Medium|数组 双指针 字符串|[题解](./solve-problems/809_情感丰富的文字.md)|
 |[810.黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game/)|Hard|位运算 脑筋急转弯 数组 数学 博弈|[题解](./solve-problems/810_黑板异或游戏.md)|
-|[811.子域名访问计数](https://leetcode-cn.com/problems/subdomain-visit-count/)|Easy|数组 哈希表 字符串|[题解](./solve-problems/811_子域名访问计数.md)|
+|[811.子域名访问计数](https://leetcode-cn.com/problems/subdomain-visit-count/)|Easy|数组 哈希表 字符串|[题解](./solve-problems/811_子域名访问计数.md)AC|
 |[812.最大三角形面积](https://leetcode-cn.com/problems/largest-triangle-area/)|Easy|几何 数组 数学|[题解](./solve-problems/812_最大三角形面积.md)|
 |[813.最大平均值和的分组](https://leetcode-cn.com/problems/largest-sum-of-averages/)|Medium|数组 动态规划|[题解](./solve-problems/813_最大平均值和的分组.md)|
 |[814.二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/)|Medium|树 深度优先搜索 二叉树|[题解](./solve-problems/814_二叉树剪枝.md)|
@@ -873,7 +873,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[831.隐藏个人信息](https://leetcode-cn.com/problems/masking-personal-information/)|Medium|字符串|[题解](./solve-problems/831_隐藏个人信息.md)|
 |[641.设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)|Medium|设计 队列 数组 链表|[题解](./solve-problems/641_设计循环双端队列.md)|
 |[622.设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)|Medium|设计 队列 数组 链表|[题解](./solve-problems/622_设计循环队列.md)|
-|[832.翻转图像](https://leetcode-cn.com/problems/flipping-an-image/)|Easy|数组 双指针 矩阵 模拟|[题解](./solve-problems/832_翻转图像.md)|
+|[832.翻转图像](https://leetcode-cn.com/problems/flipping-an-image/)|Easy|数组 双指针 矩阵 模拟|[题解](./solve-problems/832_翻转图像.md)AC|
 |[833.字符串中的查找与替换](https://leetcode-cn.com/problems/find-and-replace-in-string/)|Medium|数组 字符串 排序|[题解](./solve-problems/833_字符串中的查找与替换.md)|
 |[834.树中距离之和](https://leetcode-cn.com/problems/sum-of-distances-in-tree/)|Hard|树 深度优先搜索 图 动态规划|[题解](./solve-problems/834_树中距离之和.md)|
 |[835.图像重叠](https://leetcode-cn.com/problems/image-overlap/)|Medium|数组 矩阵|[题解](./solve-problems/835_图像重叠.md)|
@@ -1009,7 +1009,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[958.二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)|Medium|树 广度优先搜索 二叉树|[题解](./solve-problems/958_二叉树的完全性检验.md)|
 |[959.由斜杠划分区域](https://leetcode-cn.com/problems/regions-cut-by-slashes/)|Medium|深度优先搜索 广度优先搜索 并查集 图|[题解](./solve-problems/959_由斜杠划分区域.md)|
 |[960.删列造序III](https://leetcode-cn.com/problems/delete-columns-to-make-sorted-iii/)|Hard|数组 字符串 动态规划|[题解](./solve-problems/960_删列造序III.md)|
-|[961.重复N次的元素](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/)|Easy|数组 哈希表|[题解](./solve-problems/961_重复N次的元素.md)|
+|[961.重复N次的元素](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/)|Easy|数组 哈希表|[题解](./solve-problems/961_重复N次的元素.md)AC|
 |[962.最大宽度坡](https://leetcode-cn.com/problems/maximum-width-ramp/)|Medium|栈 数组 单调栈|[题解](./solve-problems/962_最大宽度坡.md)|
 |[963.最小面积矩形II](https://leetcode-cn.com/problems/minimum-area-rectangle-ii/)|Medium|几何 数组 数学|[题解](./solve-problems/963_最小面积矩形II.md)|
 |[964.表示数字的最少运算符](https://leetcode-cn.com/problems/least-operators-to-express-number/)|Hard|数学 动态规划|[题解](./solve-problems/964_表示数字的最少运算符.md)|
@@ -1133,7 +1133,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[1166.设计文件系统](https://leetcode-cn.com/problems/design-file-system/)|Medium|设计 字典树 哈希表 字符串|[题解](./solve-problems/1166_设计文件系统.md)|
 |[1167.连接棒材的最低费用](https://leetcode-cn.com/problems/minimum-cost-to-connect-sticks/)|Medium|贪心 数组 堆（优先队列）|[题解](./solve-problems/1167_连接棒材的最低费用.md)|
 |[1046.最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/)|Easy|数组 堆（优先队列）|[题解](./solve-problems/1046_最后一块石头的重量.md)|
-|[1047.删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|栈 字符串|[题解](./solve-problems/1047_删除字符串中的所有相邻重复项.md)|
+|[1047.删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|Easy|栈 字符串|[题解](./solve-problems/1047_删除字符串中的所有相邻重复项.md)AC|
 |[1048.最长字符串链](https://leetcode-cn.com/problems/longest-string-chain/)|Medium|数组 哈希表 双指针 字符串 动态规划|[题解](./solve-problems/1048_最长字符串链.md)|
 |[1049.最后一块石头的重量II](https://leetcode-cn.com/problems/last-stone-weight-ii/)|Medium|数组 动态规划|[题解](./solve-problems/1049_最后一块石头的重量II.md)|
 |[1180.统计只含单一字母的子串](https://leetcode-cn.com/problems/count-substrings-with-only-one-distinct-letter/)|Easy|数学 字符串|[题解](./solve-problems/1180_统计只含单一字母的子串.md)|
