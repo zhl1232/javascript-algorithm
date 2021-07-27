@@ -1,0 +1,29 @@
+# [用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+
+- 难度：Easy
+- 标签：栈, 设计, 队列
+
+## 刷题思路
+
+- [ ] xx
+- [ ] xx
+
+### 方法 1
+
+- 复杂度：
+    - 时间 O()
+    - 空间 O()
+
+``` js
+
+```
+
+### 方法 2
+
+- 复杂度：
+    - 时间 O()
+    - 空间 O()
+
+``` js
+
+```
