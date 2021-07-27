@@ -32,6 +32,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 
 之后会慢慢做各种数据结构和算法的学习专题，持续更新。
 
+[二分查找](https://github.com/zhl1232/javascript-algorithm/tree/master/section/BinarySearch.md)
 
 [数组类算法](https://github.com/zhl1232/javascript-algorithm/tree/master/section/Array.md)
 
@@ -84,7 +85,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[32.最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)|Hard|栈 字符串 动态规划|[题解](./solve-problems/32_最长有效括号.md)|
 |[33.搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|Medium|数组 二分查找|[题解](./solve-problems/33_搜索旋转排序数组.md)|
 |[34.在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|Medium|数组 二分查找|[题解](./solve-problems/34_在排序数组中查找元素的第一个和最后一个位置.md)|
-|[35.搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|Easy|数组 二分查找|[题解](./solve-problems/35_搜索插入位置.md)|
+|[35.搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|Easy|数组 二分查找|[题解](./solve-problems/35_搜索插入位置.md)AC|
 |[36.有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)|Medium|数组 哈希表 矩阵|[题解](./solve-problems/36_有效的数独.md)AC|
 |[37.解数独](https://leetcode-cn.com/problems/sudoku-solver/)|Hard|数组 回溯 矩阵|[题解](./solve-problems/37_解数独.md)|
 |[38.外观数列](https://leetcode-cn.com/problems/count-and-say/)|Medium|字符串|[题解](./solve-problems/38_外观数列.md)|
@@ -327,7 +328,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[275.H指数II](https://leetcode-cn.com/problems/h-index-ii/)|Medium|数组 二分查找|[题解](./solve-problems/275_H指数II.md)|
 |[276.栅栏涂色](https://leetcode-cn.com/problems/paint-fence/)|Medium|动态规划|[题解](./solve-problems/276_栅栏涂色.md)|
 |[277.搜寻名人](https://leetcode-cn.com/problems/find-the-celebrity/)|Medium|贪心 图 双指针 交互|[题解](./solve-problems/277_搜寻名人.md)|
-|[278.第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)|Easy|二分查找 交互|[题解](./solve-problems/278_第一个错误的版本.md)|
+|[278.第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)|Easy|二分查找 交互|[题解](./solve-problems/278_第一个错误的版本.md)AC|
 |[279.完全平方数](https://leetcode-cn.com/problems/perfect-squares/)|Medium|广度优先搜索 数学 动态规划|[题解](./solve-problems/279_完全平方数.md)|
 |[280.摆动排序](https://leetcode-cn.com/problems/wiggle-sort/)|Medium|贪心 数组 排序|[题解](./solve-problems/280_摆动排序.md)|
 |[281.锯齿迭代器](https://leetcode-cn.com/problems/zigzag-iterator/)|Medium|设计 队列 数组 迭代器|[题解](./solve-problems/281_锯齿迭代器.md)|
@@ -811,7 +812,7 @@ leetcode上面练题是为了学习数据结构，只是为了完成题目数量
 |[703.数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)|Easy|树 设计 二叉搜索树 二叉树 数据流 堆（优先队列）|[题解](./solve-problems/703_数据流中的第K大元素.md)|
 |[775.全局倒置与局部倒置](https://leetcode-cn.com/problems/global-and-local-inversions/)|Medium|数组 数学|[题解](./solve-problems/775_全局倒置与局部倒置.md)|
 |[776.拆分二叉搜索树](https://leetcode-cn.com/problems/split-bst/)|Medium|树 二叉搜索树 递归 二叉树|[题解](./solve-problems/776_拆分二叉搜索树.md)|
-|[704.二分查找](https://leetcode-cn.com/problems/binary-search/)|Easy|数组 二分查找|[题解](./solve-problems/704_二分查找.md)|
+|[704.二分查找](https://leetcode-cn.com/problems/binary-search/)|Easy|数组 二分查找|[题解](./solve-problems/704_二分查找.md)AC|
 |[777.在LR字符串中交换相邻字符](https://leetcode-cn.com/problems/swap-adjacent-in-lr-string/)|Medium|双指针 字符串|[题解](./solve-problems/777_在LR字符串中交换相邻字符.md)|
 |[778.水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/)|Hard|深度优先搜索 广度优先搜索 并查集 数组 二分查找 矩阵 堆（优先队列）|[题解](./solve-problems/778_水位上升的泳池中游泳.md)|
 |[779.第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/)|Medium|位运算 递归 数学|[题解](./solve-problems/779_第K个语法符号.md)|
